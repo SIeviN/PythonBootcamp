@@ -84,10 +84,24 @@ print('almost_there(104) = ', almost_there(104))
 print('almost_there(150) = ', almost_there(150))
 print('almost_there(209) = ', almost_there(209))
 
+#######################################################################################################################################################################
+print(' ')
+print('7.')
+print('FIND 33: Given a list of ints, return True if the array contains a 3 next to a 3 somewhere.')
+#######################################################################################################################################################################
 
+def has_33(nums):
+    prev = 0
+    for i in nums:
+        if i == 3 and i == prev:
+            return True
+        else:
+            prev = i
+    return False
 
-
-
+print('has_33([1, 3, 3]) = ', has_33([1, 3, 3]))
+print('has_33([1, 3, 1, 3]) = ', has_33([1, 3, 1, 3]))
+print('has_33([3, 1, 3]) = ', has_33([3, 1, 3]))
 
 
 
