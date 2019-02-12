@@ -70,3 +70,24 @@ def master_yoda(text):
 
 print('master_yoda(I am home) = ', master_yoda('I am home'))
 print('master_yoda(We are ready) = ', master_yoda('We are ready'))
+
+#######################################################################################################################################################################
+print(' ')
+print('6.')
+print('ALMOST THERE: Given an integer n, return True if n is within 10 of either 100 or 200')
+#######################################################################################################################################################################
+
+def almost_there(n):
+    return n in range(90,111) or n in range(190,211)
+
+print('almost_there(104) = ', almost_there(104))
+print('almost_there(150) = ', almost_there(150))
+print('almost_there(209) = ', almost_there(209))
+
+
+
+
+
+
+
+
